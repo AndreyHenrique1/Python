@@ -3,10 +3,9 @@
 
 a = input("Digite algo: ")
 
-print(type(a))
-print(a.isdigit())
-print(a.isalnum())
-print(a.isalpha())
-print(a.islower())
-print(a.isspace())
-print(a.isupper())
+print(f"O seu tipo é: {type(a)}")
+print(f"É uma letra: {a.isalpha()}")
+print(f"É só espaço: {a.isspace()}")
+print(f"É um alpha númerico: {a.isalnum()}")
+print(f"Está em letras maiúsculas: {a.islower()}")
+print(f"É uma palavra capitalizada: {a.istitle()}")
