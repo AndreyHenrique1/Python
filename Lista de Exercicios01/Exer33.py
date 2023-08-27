@@ -68,6 +68,6 @@ print(f"\nQuantidade de votos do José: {total_jose}"
       f"\nquantidade de votos da Ana: {total_ana}"
       f"\nQuantidade de votos Nulos: {total_nulo}"
       f"\nQuantidade de votos Brancos: {total_branco}"
-      f"\nA porcentagem de votos nulos sobre o total de votos é: "
-      f"\nA porcentagem de votos nulos sobre o total de votos é: ")
+      f"\nA porcentagem de votos nulos sobre o total de votos é: {(total_nulo / total_voto) * 100 / 2}"
+      f"\nA porcentagem de votos brancos sobre o total de votos é: {(total_branco / total_voto) * 100 / 2} ")
 
